@@ -88,7 +88,7 @@ class ActivitiesController < ApplicationController
   def fitgem_script
     # Load the existing yml config
     config = begin
-      Fitgem::Client.symbolize_keys(YAML.load(File.open(".fitgem.yml")))
+      Fitgem::Client.symbolize_keys(YAML.load(File.open("config/fitgem.yml")))
     rescue ArgumentError => e
       puts "Could not parse YAML: #{e.message}"
       exit
@@ -102,7 +102,7 @@ class ActivitiesController < ApplicationController
       begin
         access_token = client.reconnect(config[:oauth][:token], config[:oauth][:secret])
       rescue Exception => e
-        puts "Error: Could not reconnect Fitgem::Client due to invalid keys in .fitgem.yml"
+        puts "Error: Could not reconnect Fitgem::Client due to invalid keys in config/fitgem.yml"
         exit
       end
     # Without the secret and token, initialize the Fitgem::Client
@@ -132,12 +132,17 @@ class ActivitiesController < ApplicationController
       config[:oauth].merge!(:token => access_token.token, :secret => access_token.secret, :user_id => user_id)
 
       # Write the whole oauth token set back to the config file
-      File.open(".fitgem.yml", "w") {|f| f.write(config.to_yaml) }
+      File.open("config/fitgem.yml", "w") {|f| f.write(config.to_yaml) }
     end
 
     # ============================================================
     # Add Fitgem API calls on the client object below this line
-
-    @todays_activities = client.activities_on_date 'today'
+    today       = Time.now.strftime "%Y-%m-%d"
+    first_day   = client.user_info["user"]["memberSince"]
+    date_range  = first_day.to_date..today.to_date
+    @fitgem_activities = []
+    date_range.each do |date|
+      @fitgem_activities << client.activities_on_date(date.to_s)
+    end
   end
 end
