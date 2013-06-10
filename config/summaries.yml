@@ -1,5 +1,24 @@
 ---
-  - date: "2013-05-25 12:00:00 UTC"
+- activities:
+  - activityId: 17170
+    activityParentId: 90013
+    activityParentName: Walking
+    calories: 282
+    description: 2.5 mph
+    duration: 2700000
+    hasStartTime: true
+    isFavorite: false
+    logId: 25381592
+    name: Walking
+    startTime: '12:40'
+    steps: 0
+  goals:
+    activeScore: 1000
+    caloriesOut: 2184
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 566
     activityCalories: 1321
     caloriesBMR: 2261
@@ -29,7 +48,26 @@
     sedentaryMinutes: 1092
     steps: 4996
     veryActiveMinutes: 7
-  - date: "2013-05-26 12:00:00 UTC"
+  date: '2013-05-25'
+- activities:
+  - activityId: 50202
+    activityParentId: 90018
+    activityParentName: Elliptical, High Resistance
+    calories: 625
+    description: Medium Speed
+    duration: 1800000
+    hasStartTime: true
+    isFavorite: false
+    logId: 25442156
+    name: Elliptical, High Resistance
+    startTime: '09:34'
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 1082
     activityCalories: 2236
     caloriesBMR: 2269
@@ -59,7 +97,15 @@
     sedentaryMinutes: 700
     steps: 13583
     veryActiveMinutes: 51
-  - date: "2013-05-27 12:00:00 UTC"
+  date: '2013-05-26'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 932
     activityCalories: 2059
     caloriesBMR: 2269
@@ -87,7 +133,26 @@
     sedentaryMinutes: 561
     steps: 14372
     veryActiveMinutes: 40
-  - date: "2013-05-28 12:00:00 UTC"
+  date: '2013-05-27'
+- activities:
+  - activityId: 50202
+    activityParentId: 90018
+    activityParentName: Elliptical, High Resistance
+    calories: 623
+    description: Medium Speed
+    duration: 1800000
+    hasStartTime: true
+    isFavorite: false
+    logId: 25563612
+    name: Elliptical, High Resistance
+    startTime: '08:33'
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 1159
     activityCalories: 2340
     caloriesBMR: 2265
@@ -117,7 +182,15 @@
     sedentaryMinutes: 706
     steps: 13809
     veryActiveMinutes: 69
-  - date: "2013-05-29 12:00:00 UTC"
+  date: '2013-05-28'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 832
     activityCalories: 1802
     caloriesBMR: 2256
@@ -145,7 +218,15 @@
     sedentaryMinutes: 698
     steps: 11171
     veryActiveMinutes: 39
-  - date: "2013-05-30 12:00:00 UTC"
+  date: '2013-05-29'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 860
     activityCalories: 1840
     caloriesBMR: 2259
@@ -173,7 +254,15 @@
     sedentaryMinutes: 659
     steps: 12036
     veryActiveMinutes: 44
-  - date: "2013-05-31 12:00:00 UTC"
+  date: '2013-05-30'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 1236
     activityCalories: 2571
     caloriesBMR: 2265
@@ -201,7 +290,37 @@
     sedentaryMinutes: 573
     steps: 19468
     veryActiveMinutes: 75
-  - date: "2013-06-01 12:00:00 UTC"
+  date: '2013-05-31'
+- activities:
+  - activityId: 50202
+    activityParentId: 90018
+    activityParentName: Elliptical, High Resistance
+    calories: 620
+    description: Medium Speed
+    duration: 1800000
+    hasStartTime: true
+    isFavorite: false
+    logId: 25928284
+    name: Elliptical, High Resistance
+    startTime: '08:06'
+  - activityId: 3015
+    activityParentId: 3015
+    activityParentName: Aerobic, general
+    calories: 400
+    description: ''
+    duration: 3600000
+    hasStartTime: true
+    isFavorite: false
+    logId: 25956520
+    name: Aerobic, general
+    startTime: '15:00'
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 2215
     activityCalories: 4211
     caloriesBMR: 2251
@@ -233,7 +352,15 @@
     sedentaryMinutes: 446
     steps: 31575
     veryActiveMinutes: 121
-  - date: "2013-06-02 12:00:00 UTC"
+  date: '2013-06-01'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 747
     activityCalories: 1636
     caloriesBMR: 2260
@@ -261,7 +388,15 @@
     sedentaryMinutes: 707
     steps: 11573
     veryActiveMinutes: 32
-  - date: "2013-06-03 12:00:00 UTC"
+  date: '2013-06-02'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 10
+    steps: 10000
+  summary:
     activeScore: 494
     activityCalories: 1148
     caloriesBMR: 2249
@@ -289,7 +424,15 @@
     sedentaryMinutes: 717
     steps: 5746
     veryActiveMinutes: 9
-  - date: "2013-06-04 12:00:00 UTC"
+  date: '2013-06-03'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 20
+    steps: 10000
+  summary:
     activeScore: 722
     activityCalories: 1632
     caloriesBMR: 2257
@@ -317,7 +460,15 @@
     sedentaryMinutes: 682
     steps: 10094
     veryActiveMinutes: 16
-  - date: "2013-06-05 12:00:00 UTC"
+  date: '2013-06-04'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 20
+    steps: 12000
+  summary:
     activeScore: 884
     activityCalories: 1887
     caloriesBMR: 2258
@@ -345,7 +496,15 @@
     sedentaryMinutes: 692
     steps: 13580
     veryActiveMinutes: 40
-  - date: "2013-06-06 12:00:00 UTC"
+  date: '2013-06-05'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 20
+    steps: 12000
+  summary:
     activeScore: 1035
     activityCalories: 2199
     caloriesBMR: 2258
@@ -373,7 +532,15 @@
     sedentaryMinutes: 691
     steps: 16079
     veryActiveMinutes: 57
-  - date: "2013-06-07 12:00:00 UTC"
+  date: '2013-06-06'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 20
+    steps: 12000
+  summary:
     activeScore: 626
     activityCalories: 1411
     caloriesBMR: 2262
@@ -401,7 +568,15 @@
     sedentaryMinutes: 754
     steps: 6954
     veryActiveMinutes: 20
-  - date: "2013-06-08 12:00:00 UTC"
+  date: '2013-06-07'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 20
+    steps: 12000
+  summary:
     activeScore: 922
     activityCalories: 1947
     caloriesBMR: 2260
@@ -429,31 +604,40 @@
     sedentaryMinutes: 674
     steps: 14016
     veryActiveMinutes: 57
-  - date: "2013-06-09 12:00:00 UTC"
-    activeScore: 502
-    activityCalories: 1039
-    caloriesBMR: 1615
-    caloriesOut: 2404
+  date: '2013-06-08'
+- activities: []
+  goals:
+    activeScore: 1000
+    caloriesOut: 3554
+    distance: 5
+    floors: 20
+    steps: 12000
+  summary:
+    activeScore: 912
+    activityCalories: 1883
+    caloriesBMR: 1980
+    caloriesOut: 3413
     distances:
     - activity: total
-      distance: 3.32
+      distance: 5.97
     - activity: tracker
-      distance: 3.32
+      distance: 5.97
     - activity: loggedActivities
       distance: 0
     - activity: veryActive
-      distance: 1.4
+      distance: 2.69
     - activity: moderatelyActive
-      distance: 1.61
+      distance: 2.77
     - activity: lightlyActive
-      distance: 0.31
+      distance: 0.51
     - activity: sedentaryActive
       distance: 0
-    elevation: 250
-    fairlyActiveMinutes: 45
-    floors: 25
-    lightlyActiveMinutes: 80
-    marginalCalories: 727
-    sedentaryMinutes: 435
-    steps: 7383
-    veryActiveMinutes: 34
+    elevation: 300
+    fairlyActiveMinutes: 86
+    floors: 30
+    lightlyActiveMinutes: 137
+    marginalCalories: 1320
+    sedentaryMinutes: 540
+    steps: 13275
+    veryActiveMinutes: 64
+  date: '2013-06-09'
