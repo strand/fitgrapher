@@ -6,7 +6,16 @@ class ActivitiesController < ApplicationController
   # GET /activities.json
   def index
     @activities = Activity.all
-    fitgem_script
+    # unless @summaries.present?
+    #   fitgem_script
+    #   @summaries = get_summaries
+    # end
+    @summaries = YAML.load File.open "config/summaries.yml"
+    @steps     = {}
+    @summaries.each_with_index do |summary, index|
+      offset = @summaries.count - index + 1
+      @steps.merge!({ offset.days.ago => summary["steps"] })
+    end
 
     respond_to do |format|
       format.html # index.html.erb
@@ -94,13 +103,13 @@ class ActivitiesController < ApplicationController
       exit
     end
 
-    client = Fitgem::Client.new(config[:oauth])
+    @client = Fitgem::Client.new(config[:oauth])
 
     # With the token and secret, we will try to use them
     # to reconstitute a usable Fitgem::Client
     if config[:oauth][:token] && config[:oauth][:secret]
       begin
-        access_token = client.reconnect(config[:oauth][:token], config[:oauth][:secret])
+        access_token = @client.reconnect(config[:oauth][:token], config[:oauth][:secret])
       rescue Exception => e
         puts "Error: Could not reconnect Fitgem::Client due to invalid keys in config/fitgem.yml"
         exit
@@ -108,7 +117,7 @@ class ActivitiesController < ApplicationController
     # Without the secret and token, initialize the Fitgem::Client
     # and send the user to login and get a verifier token
     else
-      request_token = client.request_token
+      request_token = @client.request_token
       token = request_token.token
       secret = request_token.secret
 
@@ -116,7 +125,7 @@ class ActivitiesController < ApplicationController
       verifier = gets.chomp
 
       begin
-        access_token = client.authorize(token, secret, { :oauth_verifier => verifier })
+        access_token = @client.authorize(token, secret, { :oauth_verifier => verifier })
       rescue Exception => e
         puts "Error: Could not authorize Fitgem::Client with supplied oauth verifier"
         exit
@@ -126,7 +135,7 @@ class ActivitiesController < ApplicationController
       puts "Token is:    "+access_token.token
       puts "Secret is:   "+access_token.secret
 
-      user_id = client.user_info['user']['encodedId']
+      user_id = @client.user_info['user']['encodedId']
       puts "Current User is: "+user_id
 
       config[:oauth].merge!(:token => access_token.token, :secret => access_token.secret, :user_id => user_id)
@@ -134,15 +143,16 @@ class ActivitiesController < ApplicationController
       # Write the whole oauth token set back to the config file
       File.open("config/fitgem.yml", "w") {|f| f.write(config.to_yaml) }
     end
+  end
 
-    # ============================================================
-    # Add Fitgem API calls on the client object below this line
-    today       = Time.now.strftime "%Y-%m-%d"
-    first_day   = client.user_info["user"]["memberSince"]
-    date_range  = first_day.to_date..today.to_date
-    @fitgem_activities = []
-    date_range.each do |date|
-      @fitgem_activities << client.activities_on_date(date.to_s)
+  def get_summaries
+    first_day   = @client.user_info["user"]["memberSince"]
+    date_range  = first_day.to_date..Time.now.strftime("%Y-%m-%d").to_date
+
+    @fitgem_activities = date_range.map do |date|
+      @client.activities_on_date(date.to_s)
     end
+
+    @summaries  = @fitgem_activities.map{ |activity| activity["summary"] }
   end
 end

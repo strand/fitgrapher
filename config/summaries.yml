@@ -1,0 +1,459 @@
+---
+  - date: "05-25-2013"
+    activeScore: 566
+    activityCalories: 1321
+    caloriesBMR: 2261
+    caloriesOut: 3149
+    distances:
+    - activity: total
+      distance: 2.49
+    - activity: tracker
+      distance: 2.49
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 0.32
+    - activity: moderatelyActive
+      distance: 1.14
+    - activity: lightlyActive
+      distance: 0.78
+    - activity: sedentaryActive
+      distance: 0
+    - activity: Walking
+      distance: 0
+    elevation: 80
+    fairlyActiveMinutes: 85
+    floors: 8
+    lightlyActiveMinutes: 184
+    marginalCalories: 779
+    sedentaryMinutes: 1092
+    steps: 4996
+    veryActiveMinutes: 7
+  - date: "05-26-2013"
+    activeScore: 1082
+    activityCalories: 2236
+    caloriesBMR: 2269
+    caloriesOut: 3984
+    distances:
+    - activity: total
+      distance: 6.76
+    - activity: tracker
+      distance: 6.76
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 2.08
+    - activity: moderatelyActive
+      distance: 3.27
+    - activity: lightlyActive
+      distance: 0.75
+    - activity: sedentaryActive
+      distance: 0
+    - activity: Elliptical, High Resistance
+      distance: 0
+    elevation: 300
+    fairlyActiveMinutes: 91
+    floors: 30
+    lightlyActiveMinutes: 189
+    marginalCalories: 1582
+    sedentaryMinutes: 700
+    steps: 13583
+    veryActiveMinutes: 51
+  - date: "05-27-2013"
+    activeScore: 932
+    activityCalories: 2059
+    caloriesBMR: 2269
+    caloriesOut: 3747
+    distances:
+    - activity: total
+      distance: 6.76
+    - activity: tracker
+      distance: 6.76
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 1.77
+    - activity: moderatelyActive
+      distance: 3.65
+    - activity: lightlyActive
+      distance: 1.04
+    - activity: sedentaryActive
+      distance: 0.01
+    elevation: 390
+    fairlyActiveMinutes: 115
+    floors: 39
+    lightlyActiveMinutes: 214
+    marginalCalories: 1330
+    sedentaryMinutes: 561
+    steps: 14372
+    veryActiveMinutes: 40
+  - date: "05-28-2013"
+    activeScore: 1159
+    activityCalories: 2340
+    caloriesBMR: 2265
+    caloriesOut: 4080
+    distances:
+    - activity: total
+      distance: 6.21
+    - activity: tracker
+      distance: 6.21
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 2.88
+    - activity: moderatelyActive
+      distance: 2.83
+    - activity: lightlyActive
+      distance: 0.5
+    - activity: sedentaryActive
+      distance: 0
+    - activity: Elliptical, High Resistance
+      distance: 0
+    elevation: 510
+    fairlyActiveMinutes: 105
+    floors: 51
+    lightlyActiveMinutes: 159
+    marginalCalories: 1686
+    sedentaryMinutes: 706
+    steps: 13809
+    veryActiveMinutes: 69
+  - date: "05-29-2013"
+    activeScore: 832
+    activityCalories: 1802
+    caloriesBMR: 2256
+    caloriesOut: 3567
+    distances:
+    - activity: total
+      distance: 5.03
+    - activity: tracker
+      distance: 5.03
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 1.72
+    - activity: moderatelyActive
+      distance: 2.59
+    - activity: lightlyActive
+      distance: 0.72
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 310
+    fairlyActiveMinutes: 98
+    floors: 31
+    lightlyActiveMinutes: 176
+    marginalCalories: 1187
+    sedentaryMinutes: 698
+    steps: 11171
+    veryActiveMinutes: 39
+  - date: "05-30-2013"
+    activeScore: 860
+    activityCalories: 1840
+    caloriesBMR: 2259
+    caloriesOut: 3611
+    distances:
+    - activity: total
+      distance: 5.41
+    - activity: tracker
+      distance: 5.41
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 1.9
+    - activity: moderatelyActive
+      distance: 2.7
+    - activity: lightlyActive
+      distance: 0.82
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 350
+    fairlyActiveMinutes: 89
+    floors: 35
+    lightlyActiveMinutes: 178
+    marginalCalories: 1230
+    sedentaryMinutes: 659
+    steps: 12036
+    veryActiveMinutes: 44
+  - date: "05-31-2013"
+    activeScore: 1236
+    activityCalories: 2571
+    caloriesBMR: 2265
+    caloriesOut: 4202
+    distances:
+    - activity: total
+      distance: 8.76
+    - activity: tracker
+      distance: 8.76
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 3.29
+    - activity: moderatelyActive
+      distance: 4.86
+    - activity: lightlyActive
+      distance: 0.61
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 490
+    fairlyActiveMinutes: 166
+    floors: 49
+    lightlyActiveMinutes: 162
+    marginalCalories: 1780
+    sedentaryMinutes: 573
+    steps: 19468
+    veryActiveMinutes: 75
+  - date: "06-01-2013"
+    activeScore: 2215
+    activityCalories: 4211
+    caloriesBMR: 2251
+    caloriesOut: 5702
+    distances:
+    - activity: total
+      distance: 14.2
+    - activity: tracker
+      distance: 14.2
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 5.2
+    - activity: moderatelyActive
+      distance: 8.23
+    - activity: lightlyActive
+      distance: 0.77
+    - activity: sedentaryActive
+      distance: 0
+    - activity: Elliptical, High Resistance
+      distance: 0
+    - activity: Aerobic, general
+      distance: 0
+    elevation: 640
+    fairlyActiveMinutes: 298
+    floors: 64
+    lightlyActiveMinutes: 175
+    marginalCalories: 3053
+    sedentaryMinutes: 446
+    steps: 31575
+    veryActiveMinutes: 121
+  - date: "06-02-2013"
+    activeScore: 747
+    activityCalories: 1636
+    caloriesBMR: 2260
+    caloriesOut: 3433
+    distances:
+    - activity: total
+      distance: 5.21
+    - activity: tracker
+      distance: 5.21
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 1.43
+    - activity: moderatelyActive
+      distance: 2.9
+    - activity: lightlyActive
+      distance: 0.87
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 260
+    fairlyActiveMinutes: 91
+    floors: 26
+    lightlyActiveMinutes: 172
+    marginalCalories: 1057
+    sedentaryMinutes: 707
+    steps: 11573
+    veryActiveMinutes: 32
+  - date: "06-03-2013"
+    activeScore: 494
+    activityCalories: 1148
+    caloriesBMR: 2249
+    caloriesOut: 3017
+    distances:
+    - activity: total
+      distance: 2.58
+    - activity: tracker
+      distance: 2.58
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 0.42
+    - activity: moderatelyActive
+      distance: 1.5
+    - activity: lightlyActive
+      distance: 0.67
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 110
+    fairlyActiveMinutes: 71
+    floors: 11
+    lightlyActiveMinutes: 163
+    marginalCalories: 674
+    sedentaryMinutes: 717
+    steps: 5746
+    veryActiveMinutes: 9
+  - date: "06-04-2013"
+    activeScore: 722
+    activityCalories: 1632
+    caloriesBMR: 2257
+    caloriesOut: 3395
+    distances:
+    - activity: total
+      distance: 4.54
+    - activity: tracker
+      distance: 4.54
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 0.7
+    - activity: moderatelyActive
+      distance: 2.55
+    - activity: lightlyActive
+      distance: 1.29
+    - activity: sedentaryActive
+      distance: 0.01
+    elevation: 220
+    fairlyActiveMinutes: 86
+    floors: 22
+    lightlyActiveMinutes: 216
+    marginalCalories: 1008
+    sedentaryMinutes: 682
+    steps: 10094
+    veryActiveMinutes: 16
+  - date: "06-05-2013"
+    activeScore: 884
+    activityCalories: 1887
+    caloriesBMR: 2258
+    caloriesOut: 3648
+    distances:
+    - activity: total
+      distance: 6.11
+    - activity: tracker
+      distance: 6.11
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 1.65
+    - activity: moderatelyActive
+      distance: 3.59
+    - activity: lightlyActive
+      distance: 0.86
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 250
+    fairlyActiveMinutes: 114
+    floors: 25
+    lightlyActiveMinutes: 163
+    marginalCalories: 1265
+    sedentaryMinutes: 692
+    steps: 13580
+    veryActiveMinutes: 40
+  - date: "06-06-2013"
+    activeScore: 1035
+    activityCalories: 2199
+    caloriesBMR: 2258
+    caloriesOut: 3885
+    distances:
+    - activity: total
+      distance: 7.23
+    - activity: tracker
+      distance: 7.23
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 2.54
+    - activity: moderatelyActive
+      distance: 3.79
+    - activity: lightlyActive
+      distance: 0.89
+    - activity: sedentaryActive
+      distance: 0.01
+    elevation: 520
+    fairlyActiveMinutes: 118
+    floors: 52
+    lightlyActiveMinutes: 190
+    marginalCalories: 1483
+    sedentaryMinutes: 691
+    steps: 16079
+    veryActiveMinutes: 57
+  - date: "06-07-2013"
+    activeScore: 626
+    activityCalories: 1411
+    caloriesBMR: 2262
+    caloriesOut: 3244
+    distances:
+    - activity: total
+      distance: 3.13
+    - activity: tracker
+      distance: 3.13
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 0.83
+    - activity: moderatelyActive
+      distance: 1.65
+    - activity: lightlyActive
+      distance: 0.65
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 280
+    fairlyActiveMinutes: 70
+    floors: 28
+    lightlyActiveMinutes: 183
+    marginalCalories: 875
+    sedentaryMinutes: 754
+    steps: 6954
+    veryActiveMinutes: 20
+  - date: "06-08-2013"
+    activeScore: 922
+    activityCalories: 1947
+    caloriesBMR: 2260
+    caloriesOut: 3708
+    distances:
+    - activity: total
+      distance: 6.31
+    - activity: tracker
+      distance: 6.31
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 2.55
+    - activity: moderatelyActive
+      distance: 2.97
+    - activity: lightlyActive
+      distance: 0.79
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 510
+    fairlyActiveMinutes: 84
+    floors: 51
+    lightlyActiveMinutes: 177
+    marginalCalories: 1323
+    sedentaryMinutes: 674
+    steps: 14016
+    veryActiveMinutes: 57
+  - date: "06-09-2013"
+    activeScore: 502
+    activityCalories: 1039
+    caloriesBMR: 1615
+    caloriesOut: 2404
+    distances:
+    - activity: total
+      distance: 3.32
+    - activity: tracker
+      distance: 3.32
+    - activity: loggedActivities
+      distance: 0
+    - activity: veryActive
+      distance: 1.4
+    - activity: moderatelyActive
+      distance: 1.61
+    - activity: lightlyActive
+      distance: 0.31
+    - activity: sedentaryActive
+      distance: 0
+    elevation: 250
+    fairlyActiveMinutes: 45
+    floors: 25
+    lightlyActiveMinutes: 80
+    marginalCalories: 727
+    sedentaryMinutes: 435
+    steps: 7383
+    veryActiveMinutes: 34
