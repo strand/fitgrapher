@@ -1,5 +1,5 @@
 ---
-  - date: "05-25-2013"
+  - date: "2013-05-25 12:00:00 UTC"
     activeScore: 566
     activityCalories: 1321
     caloriesBMR: 2261
@@ -29,7 +29,7 @@
     sedentaryMinutes: 1092
     steps: 4996
     veryActiveMinutes: 7
-  - date: "05-26-2013"
+  - date: "2013-05-26 12:00:00 UTC"
     activeScore: 1082
     activityCalories: 2236
     caloriesBMR: 2269
@@ -59,7 +59,7 @@
     sedentaryMinutes: 700
     steps: 13583
     veryActiveMinutes: 51
-  - date: "05-27-2013"
+  - date: "2013-05-27 12:00:00 UTC"
     activeScore: 932
     activityCalories: 2059
     caloriesBMR: 2269
@@ -87,7 +87,7 @@
     sedentaryMinutes: 561
     steps: 14372
     veryActiveMinutes: 40
-  - date: "05-28-2013"
+  - date: "2013-05-28 12:00:00 UTC"
     activeScore: 1159
     activityCalories: 2340
     caloriesBMR: 2265
@@ -117,7 +117,7 @@
     sedentaryMinutes: 706
     steps: 13809
     veryActiveMinutes: 69
-  - date: "05-29-2013"
+  - date: "2013-05-29 12:00:00 UTC"
     activeScore: 832
     activityCalories: 1802
     caloriesBMR: 2256
@@ -145,7 +145,7 @@
     sedentaryMinutes: 698
     steps: 11171
     veryActiveMinutes: 39
-  - date: "05-30-2013"
+  - date: "2013-05-30 12:00:00 UTC"
     activeScore: 860
     activityCalories: 1840
     caloriesBMR: 2259
@@ -173,7 +173,7 @@
     sedentaryMinutes: 659
     steps: 12036
     veryActiveMinutes: 44
-  - date: "05-31-2013"
+  - date: "2013-05-31 12:00:00 UTC"
     activeScore: 1236
     activityCalories: 2571
     caloriesBMR: 2265
@@ -201,7 +201,7 @@
     sedentaryMinutes: 573
     steps: 19468
     veryActiveMinutes: 75
-  - date: "06-01-2013"
+  - date: "2013-06-01 12:00:00 UTC"
     activeScore: 2215
     activityCalories: 4211
     caloriesBMR: 2251
@@ -233,7 +233,7 @@
     sedentaryMinutes: 446
     steps: 31575
     veryActiveMinutes: 121
-  - date: "06-02-2013"
+  - date: "2013-06-02 12:00:00 UTC"
     activeScore: 747
     activityCalories: 1636
     caloriesBMR: 2260
@@ -261,7 +261,7 @@
     sedentaryMinutes: 707
     steps: 11573
     veryActiveMinutes: 32
-  - date: "06-03-2013"
+  - date: "2013-06-03 12:00:00 UTC"
     activeScore: 494
     activityCalories: 1148
     caloriesBMR: 2249
@@ -289,7 +289,7 @@
     sedentaryMinutes: 717
     steps: 5746
     veryActiveMinutes: 9
-  - date: "06-04-2013"
+  - date: "2013-06-04 12:00:00 UTC"
     activeScore: 722
     activityCalories: 1632
     caloriesBMR: 2257
@@ -317,7 +317,7 @@
     sedentaryMinutes: 682
     steps: 10094
     veryActiveMinutes: 16
-  - date: "06-05-2013"
+  - date: "2013-06-05 12:00:00 UTC"
     activeScore: 884
     activityCalories: 1887
     caloriesBMR: 2258
@@ -345,7 +345,7 @@
     sedentaryMinutes: 692
     steps: 13580
     veryActiveMinutes: 40
-  - date: "06-06-2013"
+  - date: "2013-06-06 12:00:00 UTC"
     activeScore: 1035
     activityCalories: 2199
     caloriesBMR: 2258
@@ -373,7 +373,7 @@
     sedentaryMinutes: 691
     steps: 16079
     veryActiveMinutes: 57
-  - date: "06-07-2013"
+  - date: "2013-06-07 12:00:00 UTC"
     activeScore: 626
     activityCalories: 1411
     caloriesBMR: 2262
@@ -401,7 +401,7 @@
     sedentaryMinutes: 754
     steps: 6954
     veryActiveMinutes: 20
-  - date: "06-08-2013"
+  - date: "2013-06-08 12:00:00 UTC"
     activeScore: 922
     activityCalories: 1947
     caloriesBMR: 2260
@@ -429,7 +429,7 @@
     sedentaryMinutes: 674
     steps: 14016
     veryActiveMinutes: 57
-  - date: "06-09-2013"
+  - date: "2013-06-09 12:00:00 UTC"
     activeScore: 502
     activityCalories: 1039
     caloriesBMR: 1615

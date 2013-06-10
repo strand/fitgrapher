@@ -6,17 +6,17 @@ class ActivitiesController < ApplicationController
   # GET /activities.json
   def index
     @activities = Activity.all
-    # unless @summaries.present?
-    #   fitgem_script
-    #   @summaries = get_summaries
-    # end
-    @summaries = YAML.load File.open "config/summaries.yml"
+
+    fitgem_script
+    @fitbit_activities = get_summaries
+
+    # @summaries = YAML.load File.open "config/summaries.yml"
     @steps     = {}
-    @summaries.each_with_index do |summary, index|
-      offset = @summaries.count - index + 1
-      @steps.merge!({ offset.days.ago => summary["steps"] })
+    @fitbit_activities.each do |activity|
+      @steps.merge!({ activity["date"] => activity["summary"]["steps"] })
     end
 
+    #@steps = {20.day.ago => 5, 2013174456 => 4, "2013-05-07 00:00:00 UTC" => 7}
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @activities }
@@ -149,10 +149,8 @@ class ActivitiesController < ApplicationController
     first_day   = @client.user_info["user"]["memberSince"]
     date_range  = first_day.to_date..Time.now.strftime("%Y-%m-%d").to_date
 
-    @fitgem_activities = date_range.map do |date|
-      @client.activities_on_date(date.to_s)
+    fitgem_activities = date_range.map do |date|
+      @client.activities_on_date(date.to_s).merge!({ "date" => date.to_s })
     end
-
-    @summaries  = @fitgem_activities.map{ |activity| activity["summary"] }
   end
 end
